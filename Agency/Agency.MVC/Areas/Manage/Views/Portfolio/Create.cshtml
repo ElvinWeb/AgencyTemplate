@@ -1,0 +1,59 @@
+﻿@model Portfolio;
+<style>
+    .form-container {
+        max-width: 700px;
+        padding: 50px;
+        margin-bottom: 50px;
+        border-left: 7px solid #435d7d !important;
+        border-radius: 3px;
+    }
+
+    .btn-info, .btn-primary {
+        width: 150px;
+    }
+</style>
+<div class="container shadow form-container">
+    <div>
+        <h1 class="title mb-3">Create a Portfolio</h1>
+    </div>
+    <form method="post" enctype="multipart/form-data">
+        <div class="mb-3">
+            <label asp-for="Name" class="form-label">Name</label>
+            <input asp-for="Name" type="text" class="form-control">
+            <span asp-validation-for="Name" style="color:red"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Desc" class="form-label">Description</label>
+            <input asp-for="Desc" type="text" class="form-control">
+            <span asp-validation-for="Desc" style="color:red"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="SubTitle" class="form-label">SubTitle</label>
+            <input asp-for="SubTitle" type="text" class="form-control">
+            <span asp-validation-for="SubTitle" style="color:red"></span>
+        </div>
+         <div class="mb-3">
+            <label asp-for="Client" class="form-label">Client</label>
+            <input asp-for="Client" type="text" class="form-control">
+            <span asp-validation-for="Client" style="color:red"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="CategoryId">Categoreis</label>
+            <select asp-for="CategoryId" class="form-select" aria-label="Default select example">
+                @foreach (Category category in ViewBag.Categories)
+                {
+                    <option value="@category.Id">@category.Name</option>
+                }
+            </select>
+            <span asp-validation-for="CategoryId" style="color:red"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="ImgFile" class="form-label">Image</label>
+            <input asp-for="ImgFile" class="form-control">
+            <span asp-validation-for="ImgFile" style="color:red"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary ">Submit</button>
+        <a class="btn btn-info" asp-action="Index" asp-controller="Portfolio">Back To Home</a>
+    </form>
+</div>

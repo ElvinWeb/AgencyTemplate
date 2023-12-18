@@ -1,0 +1,12 @@
+C:\Users\II novbe\Desktop\all task\AgencyProject\Agency\Agency.Core\bin\Debug\net6.0\Agency.Core.deps.json
+C:\Users\II novbe\Desktop\all task\AgencyProject\Agency\Agency.Core\bin\Debug\net6.0\Agency.Core.dll
+C:\Users\II novbe\Desktop\all task\AgencyProject\Agency\Agency.Core\bin\Debug\net6.0\Agency.Core.pdb
+C:\Users\II novbe\Desktop\all task\AgencyProject\Agency\Agency.Core\obj\Debug\net6.0\Agency.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\II novbe\Desktop\all task\AgencyProject\Agency\Agency.Core\obj\Debug\net6.0\Agency.Core.AssemblyInfoInputs.cache
+C:\Users\II novbe\Desktop\all task\AgencyProject\Agency\Agency.Core\obj\Debug\net6.0\Agency.Core.AssemblyInfo.cs
+C:\Users\II novbe\Desktop\all task\AgencyProject\Agency\Agency.Core\obj\Debug\net6.0\Agency.Core.csproj.CoreCompileInputs.cache
+C:\Users\II novbe\Desktop\all task\AgencyProject\Agency\Agency.Core\obj\Debug\net6.0\Agency.Core.dll
+C:\Users\II novbe\Desktop\all task\AgencyProject\Agency\Agency.Core\obj\Debug\net6.0\refint\Agency.Core.dll
+C:\Users\II novbe\Desktop\all task\AgencyProject\Agency\Agency.Core\obj\Debug\net6.0\Agency.Core.pdb
+C:\Users\II novbe\Desktop\all task\AgencyProject\Agency\Agency.Core\obj\Debug\net6.0\ref\Agency.Core.dll
+C:\Users\II novbe\Desktop\all task\AgencyProject\Agency\Agency.Core\obj\Debug\net6.0\Agency.Core.csproj.AssemblyReference.cache
