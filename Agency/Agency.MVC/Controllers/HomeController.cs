@@ -19,6 +19,12 @@ namespace Agency.MVC.Controllers
 
             return View(portfolios);
         }
+        public async Task<IActionResult> Modal()
+        {
+            
+
+            return View();
+        }
 
 
     }
