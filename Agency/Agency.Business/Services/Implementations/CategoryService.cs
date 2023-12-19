@@ -16,14 +16,14 @@ namespace Agency.Business.Services.Implementations
         {
             _categoryRepository = categoryRepository;
         }
-        public async Task CreateAsync(Category entity)
+        public async Task CreateAsync(Category category)
         {
-            if (_categoryRepository.Table.Any(x => x.Name.ToLower() == entity.Name.ToLower()))
+            if (_categoryRepository.Table.Any(x => x.Name.ToLower() == category.Name.ToLower())) 
             {
                 throw new InvalidAlreadyCreated("Name", "category has already created!");
             }
 
-            await _categoryRepository.CreateAsync(entity);
+            await _categoryRepository.CreateAsync(category);
             await _categoryRepository.CommitAsync();
         }
 

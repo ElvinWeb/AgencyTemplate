@@ -19,7 +19,8 @@ namespace Agency.MVC.Areas.Manage.Controllers
         public async Task<IActionResult> Index(int page = 1)
         {
             var query = _categoryService.GetCategoryTable();
-            PaginatedList<Category> paginatedCategories = PaginatedList<Category>.Create(query, page, 3);
+
+            PaginatedList<Category> paginatedCategories = PaginatedList<Category>.Create(query, page, 4);
 
             return View(paginatedCategories);
         }
